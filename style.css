@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    background-color:#f4f4f9;
+   justify-content:center;
+   align-items: center; 
+   
+
+}
+
+.titles{
+    padding: 60px;
+}
+
+.heading{
+    padding:10px;
+}
+
+/* .inputbox{
+    border: 3px;
+    border-color: blue;
+    padding:30px;
+}
+
+.form */
+
+
+#inputbox{
+    width:50%;
+    
+  padding: 14px;
+  margin:8px auto;
+  
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  
+  
+  &:active {
+      font-size: 13px;
+       border: 10px solid blue;
+      
+      
+    }
+
+    &:disabled {
+    
+      
+      
+    border: 10px solid blue;
+    }
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding:16px 32px;
+    border-radius: 10px;
+    align-items: center;
+
+    
+}
+
+.card{
+    display:flex;
+    padding:20px;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+
+}
+
+.first{
+   text-align: left;
+    padding:10px 80px;
+    border:1px solid black;
+    background-color:white;
+    border-radius:5px;
+    margin: 5px 20px;
+    border-radius: 10px;
+
+}
+
+.second{
+  padding:10px 80px;
+    border:1px solid black;
+    background-color:white;
+    border-radius:5px;
+    margin: 5px 20px;
+     border-radius: 10px;
+     border-radius: 10px;
+
+}
+
+.third{
+    padding:10px 80px;
+    border:1px solid black;
+    background-color:white;
+    border-radius:5px;
+    margin: 5px 20px;
+     border-radius: 10px;
+
+}
+
+.lists{
+    gap: 15px;
+}
+
+.welcome{
+    padding:15px 15px;
+    background-color: white;
+    text-align: left;
+    border-radius: 15px;
+    font-size: 18px;
+    margin:auto;
+
+
+    
+}
+
+
+.check{
+    padding:15px 15px;
+    background-color: white;
+    text-align:start;
+    border-radius: 15px;
+    font-size: 18px;
+    margin:auto;
+
+
+}
+
+.delete{
+    padding:13px 15px;
+    background-color: white;
+    text-align:start;
+    border-radius: 15px;
+    font-size: 18px;
+    margin:auto;
+
+
+}
+.one{
+
+    display:flex;
+    font-size: 25px;
+    padding:5px;
+    align-items: left;
+    justify-content: left;
+    width:25%;
+   
+}
+
+
+
+
+.head2{
+ display:flex;
+    font-size: 25px;
+    padding:5px;
+    align-items: left;
+    justify-content: left;
+}
+
+.four{
+     display:flex;
+    font-size: 25px;
+    padding:5px;
+    align-items: left;
+    justify-content: left;
+}
