@@ -3,47 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>To Do App</title>
   </head>
   <body>
-    <div>
-      <div class=" titles">
-        <h1 class="heading">TO-Do List</h1>
+    <div class="container">
+      <div class="titles">
+        <h1 class="heading">To-Do List</h1>
         <h3>Stay Organized and productive</h3>
       </div>
-      <div>
-        <div class="inputbox">
-          <input type="text" id="inputbox" placeholder="Add new task" size="100" />
-          <button>ADD</button>
+
+      <div class="inputboxclass">
+        <input type="text" id="inputbox" placeholder="Add new task" />
+        <button>ADD</button>
+      </div>
+
+      <div class="card">
+        <div class="first">
+          <h6 class="one">2</h6>
+          <p class="two">Active</p>
         </div>
-        <div class="card">
-          <div class="first">
-            <h6 class="one">2</h6>
-            <p class="two">Active</p>
-          </div>
-          <div class="second">
-            <h6 class="head2">1</h6>
-            <p class="three">Completed</p>
-          </div>
-          <div class="third">
-            <h6 class="four">3</h6>
-            <p class="five">Total</p>
-          </div>
+        <div class="second">
+          <h6 class="head2">1</h6>
+          <p class="three">Completed</p>
+        </div>
+        <div class="third">
+          <h6 class="four">3</h6>
+          <p class="five">Total</p>
         </div>
       </div>
+
       <div class="lists">
-        <div class="welcome">
-            <input class="input1" type="checkbox">
+        <div class="welcome item">
+          <input type="checkbox" />
           <span>Welcome to your to-do list!</span>
+           <div class="actions">
+            <i class="fa-solid fa-pen edit-icon"></i>
+            <i class="fa-solid fa-trash delete-icon"></i>
+          </div>
         </div>
-        <div class="check"> 
-            <input type="checkbox">
+        <div class="check item">
+          <input type="checkbox" />
           <span>Click the checkbox to mark as complete</span>
+           <div class="actions">
+            <i class="fa-solid fa-pen edit-icon"></i>
+            <i class="fa-solid fa-trash delete-icon"></i>
+          </div>
         </div>
-        <div class="delete">
-            <input type="checkbox">
+        <div class="delete item">
+          <input type="checkbox" checked />
           <span>Hover to delete items</span>
+          <div class="actions">
+            <i class="fa-solid fa-pen edit-icon"></i>
+            <i class="fa-solid fa-trash delete-icon"></i>
+          </div>
+          
+          </div>
         </div>
       </div>
     </div>
