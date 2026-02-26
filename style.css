@@ -83,7 +83,7 @@ button {
 }
 
 
-.lists {
+#lists {
   display: flex;
   flex-direction: column;
   gap: 10px;
